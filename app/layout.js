@@ -5,6 +5,10 @@ import Hero from "@/components/Hero";
 import Benefits from "@/components/Benefits";
 import ButtonGradient from "./assets/svg/ButtonGradient";
 import Collaboration from "@/components/Collaboration";
+import Services from "@/components/Services";
+import Pricing from "@/components/Pricing";
+import Roadmap from "@/components/Roadmap";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,9 +35,13 @@ export default function RootLayout({ children }) {
           <Header />
           <Hero />
           <Benefits />
-          <Collaboration/>
+          <Collaboration />
+          <Services />
+          <Pricing />
+          <Roadmap />
+          <Footer/>
         </div>
-        <ButtonGradient/>
+        <ButtonGradient />
         {children}
       </body>
     </html>
