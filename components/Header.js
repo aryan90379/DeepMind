@@ -35,7 +35,7 @@ const Header = () => {
                 <a className='w-[12rem] xl:mr-8 flex items-center gap-2' href='#home'>
                     <Image
                         src={brainwave}
-                        alt='Brainwave'
+                        alt='DeepMind'
                         width={40}
                         height={40}
                     />

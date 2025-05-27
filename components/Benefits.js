@@ -16,7 +16,7 @@ const Benefits = () => {
 
                 <Heading
                     className="md:max-w-md lg:max-w-2xl"
-                    title="Chat Smarter, Not harder with Brainwave"
+                    title="Chat Smarter, Not harder with DeepMind"
                 />
                 <div className='flex flex-wrap gap-10 mb-10'>
                     {benefits.map((item, index) => (

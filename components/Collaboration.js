@@ -49,7 +49,7 @@ const Collaboration = () => {
                                 <div className='flex items-center justify-center w-full h-full bg-n-8 rounded-full'>
                                     <Image
                                         src={brainwaveSymbol}
-                                        alt='brainwave'
+                                        alt='DeepMind'
                                         width={48}
                                         height={48}
                                     />
