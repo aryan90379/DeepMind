@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {/* <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
+        <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
           <Header />
           <Hero />
           <Benefits />
@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
           <Roadmap />
           <Footer/>
         </div>
-        <ButtonGradient /> */}
+        <ButtonGradient />
         {children}
       </body>
     </html>
